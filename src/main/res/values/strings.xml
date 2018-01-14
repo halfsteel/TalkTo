@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TalkTo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_depression">Depression</string>
+    <string name="title_activity_general">General</string>
+    <string name="title_activity_ptsd">PTSD</string>
+    <string name="title_activity_suicidal">Suicidal</string>
+    <string name="title_activity_cancer">Cancer</string>
+    <string name="title_activity_terminal">Terminal</string>
+    <string name="title_activity_loss">Loss</string>
+    <string name="title_activity_other">Other</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_cancer_chat">CancerChat</string>
+    <string name="title_activity_depressin_chat">DepressinChat</string>
+    <string name="title_activity_depression_chat">DepressionChat</string>
+    <string name="title_activity_loss_chat">LossChat</string>
+    <string name="title_activity_other_chat">OtherChat</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_ptsdchat">PTSDChat</string>
+    <string name="title_activity_suicidal_chat">SuicidalChat</string>
+</resources>

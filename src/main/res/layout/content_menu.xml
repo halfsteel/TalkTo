@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="rg.maac.talkto.Menu"
+    tools:showIn="@layout/activity_menu">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Button1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="0dp"
+                android:onClick="goToSuicidal"
+                android:background="#2F6690"
+                android:textSize="40sp"
+                android:textColor="#f4f4f4"
+                android:fontFamily="@font/orkney_light"
+                android:textAllCaps="false"
+                android:text="Suicidal" />
+
+            <Button
+                android:id="@+id/Button2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="goToDepression"
+                android:background="#3A7CA5"
+                android:textSize="40sp"
+                android:textColor="#f9f9f9"
+                android:fontFamily="@font/orkney_light"
+                android:textAllCaps="false"
+                android:text="Depression" />
+
+            <Button
+                android:id="@+id/Button3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="goToPTSD"
+                android:background="#568EA3"
+                android:textSize="40sp"
+                android:textColor="#f0f0f0"
+                android:fontFamily="@font/orkney_light"
+                android:textAllCaps="false"
+                android:text="PTSD" />
+
+            <Button
+                android:id="@+id/Button4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#92D5E6"
+                android:fontFamily="@font/orkney_light"
+                android:onClick="goToCancer"
+                android:text="Cancer"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/Button5"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="goToTerminal"
+                android:background="#9DD9D2"
+                android:textSize="40sp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/orkney_light"
+                android:textAllCaps="false"
+                android:text="Terminal Illness" />
+
+            <Button
+                android:id="@+id/Button6"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="goToLoss"
+                android:background="#79BCB8"
+                android:textSize="40sp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/orkney_light"
+                android:textAllCaps="false"
+                android:text="Loss of Loved One" />
+
+            <Button
+                android:id="@+id/Button7"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="goToOther"
+                android:background="#6B9080"
+                android:textSize="40sp"
+                android:textColor="#f0f0f0"
+                android:fontFamily="@font/orkney_light"
+                android:textAllCaps="false"
+                android:text="Other" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
